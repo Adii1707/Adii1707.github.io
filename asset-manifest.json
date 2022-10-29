@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c89053f.css",
-    "main.js": "/static/js/main.caee6153.js",
+    "main.css": "/static/css/main.011579ac.css",
+    "main.js": "/static/js/main.674e4580.js",
     "static/media/Adityaimage.png": "/static/media/Adityaimage.ea73f72f74bd486e5619.png",
     "static/media/Bigbasket.png": "/static/media/Bigbasket.f32572eb3b5f6ca038cc.png",
     "static/media/Zara.png": "/static/media/Zara.45668bb6a6025d98875c.png",
     "static/media/Anthropologie.png": "/static/media/Anthropologie.ea604b09ac841de0cf90.png",
+    "static/media/Unsplash.png": "/static/media/Unsplash.23cf66e9610d3ccab37e.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -14,11 +15,11 @@
     "static/media/Chakra.png": "/static/media/Chakra.36db97903e01c1040ed5.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.8c89053f.css.map": "/static/css/main.8c89053f.css.map",
-    "main.caee6153.js.map": "/static/js/main.caee6153.js.map"
+    "main.011579ac.css.map": "/static/css/main.011579ac.css.map",
+    "main.674e4580.js.map": "/static/js/main.674e4580.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c89053f.css",
-    "static/js/main.caee6153.js"
+    "static/css/main.011579ac.css",
+    "static/js/main.674e4580.js"
   ]
 }
