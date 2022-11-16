@@ -1,8 +1,11 @@
+import { GithubCalender } from "./githubCalender";
+import Stats from "./Stats";
+
 const About = ()=>{
     return (
       <div
       name="About"
-      className="w-full h-screen bg-gradient-to-b from-gray-800  to-gray-800 text-white"
+      className="w-full h-full bg-gradient-to-b from-gray-800  to-gray-800 text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -16,6 +19,10 @@ const About = ()=>{
           interdisciplinary teams and executing goal-oriented projects. 
           Strongly interested in obtaining a Software Developer position to work on enhancing the product experience.
         </p>
+      </div>
+      <div className="max-w-screen-lg pb-8 p-4 mx-auto flex flex-col justify-center w-full ">
+     <GithubCalender  />
+     <Stats />
       </div>
     </div>
     )

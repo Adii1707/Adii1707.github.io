@@ -1,0 +1,29 @@
+#nav{
+    margin: 0px;
+    margin-bottom: 10px;
+    z-index: 999;
+    flex-direction: row;
+    list-style: none;
+    padding: 25px 0;
+    border-radius: 14px;
+    border: 0.1px solid #099FFF;
+    background-color: #18181B;
+    box-shadow: 0 4px 8px #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#li{
+     margin: auto;
+     color: white;
+     font-size: 22px;
+     cursor: pointer;
+    
+}
+
+#li::after {
+    display: block;
+
+}
+
+#li:hover::after {
+    transform: scaleX(1);
+}
