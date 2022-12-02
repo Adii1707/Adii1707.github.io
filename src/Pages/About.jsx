@@ -15,14 +15,13 @@ const About = ()=>{
         </div>
 
         <p className="text-xl mt-10">
-          Aspiring Software developer, Collaborative team player who is proficient in working with 
-          interdisciplinary teams and executing goal-oriented projects. 
-          Strongly interested in obtaining a Software Developer position to work on enhancing the product experience.
+        A dynamic, aspiring Full Stack Web developer. Cooperative team participant skilled in working with interdisciplinary teams and executing goal-oriented projects.
+         Intensely interested in obtaining a Software Developer position to work on enhancing the product experience.
         </p>
       </div>
       <div className="max-w-screen-lg pb-8 p-4 mx-auto flex flex-col justify-center w-full ">
-     <GithubCalender  />
-     <Stats />
+      <GithubCalender  />
+      <Stats />
       </div>
     </div>
     )

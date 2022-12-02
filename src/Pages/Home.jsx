@@ -7,10 +7,10 @@ const Home = ()=>{
     return (
       <div
       name="home"
-      className="h-full w-full bg-gradient-to-b from-black via-black to-gray-800 "
+      className="h-full pt-20 w-full bg-gradient-to-b from-black via-black to-gray-800 "
     >
       <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full  w-96">
+        <div className="flex flex-col justify-center h-full  ">
           <h3 className="pt-10 text-2xl w-96 sm:text-3xl font-bold text-white md:flex-row">
            Hey, I'm Aditya Singh Ghosh
           </h3>
@@ -36,7 +36,7 @@ const Home = ()=>{
           </div>
         </div>
 
-        <div className="mt-14">
+        <div className="mt-16">
           <img
           // style={{height: "350px", width: "300px"} }
             src={AdityaImage}

@@ -25,15 +25,15 @@ export const GithubCalender = () => {
 
   return (
     <div
-    // className=" items-center pl-10 w-full h-screen bg-gradient-to-b
-    //  from-gray-800
-    //   to-gray-800 text-white"
+    className=" items-center pl-10 w-full bg-gradient-to-b
+     from-gray-800
+      to-gray-800 text-white"
       >
+       
        <GitHubCalendar style={{alignItems: "center"}} 
        username="Adii1707" 
        fontSize={18}
        blockSize={18}
-       theme="dracula"
        transformData={selectLastHalfYear}
        >  
         <ReactTooltip delayShow={20} html />

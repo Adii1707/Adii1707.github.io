@@ -8,6 +8,7 @@ import Unsplash from "../assets/portfolio/Unsplash.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import "./Project.css";
 
 const Project = () => {
   const projects = [
@@ -16,7 +17,7 @@ const Project = () => {
       src: anthropologie,
       link: "https://falgunbokde-ftweb18-constructweek1.netlify.app/",
       github: "https://github.com/falgunbokde23/ANTHROPOLOGIE-Project",
-      desc: "This is information of orignal ANTHROPOLOGIE website so basically this is an E-commerce website in this website we can purchase various products like Beauty Products , Dresses , Women Clothes, Furniture and more. This was a collaborative project buit by team of 5 executed in 3 days ",
+      desc: "It was an e-commerce website where we could purchase products like Beauty Products and Home products. It was a collaborative project built by a team of five developers and executed in five days.",
       stack: "HTML | CSS | JavaScript",
       name: "Clone of Anthropologie",
     },
@@ -35,7 +36,7 @@ const Project = () => {
       src: Bigbasket,
       link: "https://venerable-basbousa-4536f8.netlify.app/",
       github: "https://github.com/Vaibhav2416/BigBasket-Clone",
-      desc: "BigBasket is an e-commerce website which primarily delivers grocery goods found in convenience stores, home essentials and food supplies to its customers. This was a collaborative project buit by team of 5 members in 5 days",
+      desc: "Big-Basket was an e-commerce website that sold and delivered groceries and fruits. It was a collaborative project built by a team of six developers and  executed in five days.",
       stack: "HTML | CSS | JavaScript",
       name: "Clone of BigBasket",
     },
@@ -56,7 +57,34 @@ const Project = () => {
     infinite: false,
     speed: 500,
     slidesToShow: 2,
-    slidesToScroll: 2
+    slidesToScroll: 4,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
     <div
@@ -71,9 +99,9 @@ const Project = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <Slider {...settings} className="gap-x-2" >
+        <Slider width="400px" {...settings} className="gap-x-2" >
         {projects.map(({ id, src, link, github,name,stack,desc }) => (
-            <div key={id} className="shadow-md gap- shadow-gray-600 rounded-lg w-2/3" >
+            <div key={id} className="shadow-md  shadow-gray-600 rounded-lg w-60" >
               
               <img
              

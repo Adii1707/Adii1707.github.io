@@ -5,7 +5,9 @@ import Skills from './Pages/Skills';
 import SocialLinks from './Pages/SocialLinks';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-// import {GithubCalender} from "./Pages/githubCalender";
+import {GithubCalender} from "./Pages/githubCalender";
+import Stats from './Pages/Stats';
+
 
 function App() {
   return (
