@@ -4,10 +4,10 @@ import React from "react";
 const Stats = () => {
   return (
     // streak 
-    < >
+    <div className="flex flex-col justify-center items-center ">
       {/* <div className="mb-2 mt-4 item-center " > */}
        
-        <div className="mt-5 ml-5">
+        <div className="mt-5 ml-16 place-items-center content-center">
         <a href="https://github.com/Adii1707" className="mt-6" >  
           <img
             align="center"
@@ -16,25 +16,26 @@ const Stats = () => {
         </a>
         </div>
         <br />
-        <div className="ml-5">
+        <div className="ml-5 content-center">
         <a href="https://github.com/Adii1707" className="mt-4">
           <img
-            align="left"
+            align="center"
             src="https://github-readme-stats.vercel.app/api?username=Adii1707&show_icons=true&theme=tokyonight" //stats
          alt="stats card" />
         </a>
         </div>
        <br />
-        <div className="ml-5">
+        <div className="ml-5 items-center">
        <a href="https://github.com/Adii1707" className="mt-4">
           <img
-            align="left"
+            //align="center"
+            className="items-center"
             src="https://github-readme-streak-stats.herokuapp.com?user=Adii1707&theme=tokyonight&border_radius=6.5&date_format=j%20M%5B%20Y%5D"
         alt="streak"  />
         </a>
        </div>
         {/* </div> */}
-    </>
+    </div>
   );
 };
 

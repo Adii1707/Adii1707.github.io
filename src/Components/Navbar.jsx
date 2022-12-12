@@ -3,7 +3,7 @@ import {Link} from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 
-// import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 
 
@@ -37,12 +37,12 @@ const Navbar = () => {
     //   id: 6,
     //   link: (
     //     <>
-    //       Resume <BsFillPersonLinesFill size={30} />
+    //     <a
+    //   href= "/AdityaResume.pdf"
+    //   //style= "rounded-br-md"
+    //   download= {true}>Resume</a>
     //     </>
-    //   ),
-    //   href: "/AdityaResume.pdf",
-    //   style: "rounded-br-md",
-    //   download: true,
+    //   )
     // },
   ];
 
@@ -65,8 +65,10 @@ const Navbar = () => {
             </Link>
           </li>
         ))}
+          <a className="px-4 pt-0 font-medium cursor-pointer capitalize text-2xl text-white-500
+           hover:scale-105 duration-200" href="/AdityaResume.pdf" download= {true}><h3>Resume</h3></a>
       </ul>
-
+   
       <div
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
@@ -91,6 +93,9 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
+          <a className="px-4 cursor-pointer capitalize py-6 text-4xl" href="/AdityaResume.pdf" download= {true}>
+            <h3>Resume</h3>
+            </a>
         </ul>
       )}
     </div>

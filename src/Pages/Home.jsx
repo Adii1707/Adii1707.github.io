@@ -7,15 +7,15 @@ const Home = ()=>{
     return (
       <div
       name="home"
-      className="h-full pt-20 w-full bg-gradient-to-b from-black via-black to-gray-800 "
+      className="h-full pb-10 pt-20 w-full bg-gradient-to-b from-black via-black to-gray-800 "
     >
       <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full  ">
           <h3 className="pt-10 text-2xl w-96 sm:text-3xl font-bold text-white md:flex-row">
-           Hey, I'm Aditya Singh Ghosh
+           Hey, I'm Aditya Singh 
           </h3>
           <h5 className="pt-4 w-96 text-xl sm:text-3xl font-bold text-teal-500 md:flex-row">
-          Full stack Web Developer
+          Full Stack Web Developer
           </h5>
 
           <div>
