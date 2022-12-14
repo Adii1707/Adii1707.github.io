@@ -69,7 +69,7 @@ const Contact = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-center p-4 mt-4 w-60 h-14 px-4 duration-300 bg-gray-500" +
+              "flex justify-between items-center p-4 mt-4 w-60 h-14 px-4 duration-300 hover:scale-110 bg-gray-500" +
               " " +
               style
             }
