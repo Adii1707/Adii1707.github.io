@@ -25,7 +25,7 @@ export const GithubCalender = () => {
 
   return (
     <div
-    className=" items-center pl-10 w-full bg-gradient-to-b
+    className=" items-center pr-5 hover:scale-105 duration-300 pl-10 w-full bg-gradient-to-b
      from-gray-800
       to-gray-800 text-white"
       >
