@@ -9,9 +9,9 @@ const Home = ()=>{
       name="home"
       className="h-full pb-10 pt-20 w-full bg-gradient-to-b from-purple-800 via-black to-cyan-800 "
     >
-      <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full  ">
-          <h3 className="pt-10 text-2xl w-96 sm:text-3xl font-bold text-white md:flex-row">
+      <div className="max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+        <div className="flex flex-col  justify-center h-full  ">
+          <h3 className="pt-10 text-2xl hover:scale-105 duration-200 w-96 sm:text-3xl font-bold text-white md:flex-row">
            Hey, I'm Aditya Singh 
           </h3>
           <h5 className="pt-4 w-96 text-xl sm:text-3xl font-bold text-teal-500 md:flex-row">
@@ -25,8 +25,8 @@ const Home = ()=>{
               download={true}
               smooth
               duration={500}
-              className="group mt-3 text-white w-fit px-6 py-3 my-2 flex items-center rounded-md 
-              bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              className="group mt-4 text-white w-fit w-300 px-6 py-3 my-2 flex items-center text-xl rounded-md 
+              bg-gradient-to-r hover:scale-105 from-gray-500 to-gray-500 cursor-pointer"
             >
               Resume
               <span className="group-hover:rotate-90 duration-300">
@@ -36,12 +36,12 @@ const Home = ()=>{
           </div>
         </div>
 
-        <div className="mt-16">
+        <div className="m-16">
           <img
-          // style={{height: "350px", width: "300px"} }
+          
             src={AdityaImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-1/2 md:w-1/2 "
+            className="h-[300px] rounded-xl hover:scale-105 duration-300  w-[300px]"
           />
         </div>
       </div>

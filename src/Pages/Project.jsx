@@ -89,7 +89,7 @@ const Project = () => {
   return (
     <div
       name="Projects"
-      className="mt-10px bg-gradient-to-b from-pink-600 via-gray-800 to-red-800 w-full text-white md:h-full"
+      className="mt-10px bg-gradient-to-b  from-cyan-800 via-black to-purple-800 w-full text-white md:h-full"
     >
       <div className="max-w-screen-lg pb-10 p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

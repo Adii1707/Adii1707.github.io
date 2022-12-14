@@ -50,7 +50,7 @@ const Contact = () => {
   return (
     <div
       name="Contact"
-      className="w-full h-full bg-gradient-to-b from-red-800 via-purple-900 to-pink-800 p-4 text-white"
+      className="w-full h-full bg-gradient-to-b  from-purple-800 via-black to-cyan-800 p-4 text-white"
     >
       
       <div className="flex flex-col w-full p-4 justify-center max-w-screen-lg mx-auto h-full">
@@ -69,7 +69,7 @@ const Contact = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-center p-4 mt-4 w-60 h-14 px-4 duration-300 hover:scale-110 bg-gray-500" +
+              "flex justify-between items-center p-4 mt-4 w-60 h-14 px-4 duration-300 hover:scale-110 bg-gradient-to-r from-gray-500 via-gray-500 to-red-400" +
               " " +
               style
             }
@@ -112,7 +112,7 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button className="text-white bg-gradient-to-b from-red-500 to-pink-600 px-11 py-3 my-8 mx-auto flex items-center text-2xl w-[150px] rounded-md hover:scale-110 duration-300">
               Send
             </button>
           </form></div>

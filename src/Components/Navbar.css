@@ -5,9 +5,9 @@
     flex-direction: row;
     list-style: none;
     padding: 25px 0;
-    border-radius: 14px;
-    border: 0.1px solid #099FFF;
-    background-color: #18181B;
+    border-radius: 8px;
+    /* border: 0.1px solid #099FFF; */
+    /* background-color: #18181B; */
     /* box-shadow: 0 4px 8px #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
