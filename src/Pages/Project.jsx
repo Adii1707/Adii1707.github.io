@@ -89,7 +89,7 @@ const Project = () => {
   return (
     <div
       name="Projects"
-      className="mt-10px bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-full"
+      className="mt-10px bg-gradient-to-b from-pink-500 via-gray-800 to-red-400 w-full text-white md:h-full"
     >
       <div className="max-w-screen-lg pb-10 p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -110,7 +110,7 @@ const Project = () => {
                 className="h-80 rounded-md duration-200 hover:scale-105"
               />
               <div>
-                <h3 className="font-bold text-green-800 p-2"  >{name}</h3>
+                <h3 className="font-bold text-orange-800 p-2 hover:scale-105"  >{name}</h3>
                 <p className=" text-black-800 p-2">{desc}</p>
                 <h4 className="font-bold text-green-800 p-2">Tech Stack: {stack}</h4>
               </div>
