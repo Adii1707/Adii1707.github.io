@@ -32,19 +32,19 @@ const Contact = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:adityasinghghosh36@gmail.com",
     },
-    {
-      id: 4,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "/AdityaResume.pdf",
-      style: "rounded-br-md",
-      download: true,
-    },
+    // {
+    //   id: 4,
+    //   child: (
+    //     <>
+    //       Resume <BsFillPersonLinesFill size={30} />
+    //     </>
+    //   ),
+    //   href: "/AdityaResume.pdf",
+    //   style: "rounded-br-md",
+    //   download: true,
+    // },
   ];
 
   return (
