@@ -7,8 +7,11 @@ import Unsplash from "../assets/portfolio/Unsplash.png";
 // import { Carousel } from "@trendyol-js/react-carousel";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 import Slider from "react-slick";
 import "./Project.css";
+
+// from-cyan-800 via-black to-purple-800 w-full
 
 const Project = () => {
   const projects = [
@@ -89,19 +92,19 @@ const Project = () => {
   return (
     <div
       name="Projects"
-      className="mt-10px bg-gradient-to-b  from-cyan-800 via-black to-purple-800 w-full text-white md:h-full"
+      className="mt-10px bg-gradient-to-b bg-gray-500 text-black md:h-full"
     >
       <div className="max-w-screen-lg pb-10 p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline ">
             Projects
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6 text-black text-xl">Check out some of my work right here</p>
         </div>
 
-        <Slider width="400px" {...settings} className="gap-x-2 shadow-md" >
+        <div className="gap-x-2 w-full grid grid-cols-1 lg:grid-cols-2 grid-rows-1 gap-5 shadow-md" >
         {projects.map(({ id, src, link, github,name,stack,desc }) => (
-            <div key={id} className="  rounded-lg w-60 p-3" >
+            <div key={id} className="w-[400px] rounded-lg  p-3" >
               
               <img
              
@@ -110,7 +113,7 @@ const Project = () => {
                 className="h-80 rounded-md duration-200 hover:scale-105"
               />
               <div>
-                <h3 className="font-bold text-yellow-200 text-2xl pl-6 p-2 hover:scale-105"  >{name}</h3>
+                <h3 className="font-bold text-yellow-300 text-2xl pl-6 p-2 hover:scale-105"  >{name}</h3>
                 <p className=" text-black-800 p-2">{desc}</p>
                 <h4 className="font-bold text-cyan-400 text-xl hover:scale-105 duration-200 pl-3 p-2">Tech Stack: {stack}</h4>
               </div>
@@ -127,7 +130,7 @@ const Project = () => {
               
             </div>
           ))}
-        </Slider>
+        </div>
       </div>
     </div>
   );

@@ -8,6 +8,7 @@ import npm from "../assets/npm.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import Chakra from "../assets/Chakra.png";
+// bg-gradient-to-b from-purple-800 via-black to-cyan-800
 
 const Skills = () => {
   const techs = [
@@ -64,14 +65,14 @@ const Skills = () => {
   return (
     <div
       name="Skills"
-      className="bg-gradient-to-b from-purple-800 via-black to-cyan-800 w-full h-full"
+      className="bg-gray-500 w-full h-full"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black">
         <div>
           <p className="text-4xl font-bold border-purple-500 p-2 inline">
             Skills
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-6 text-black text-xl">These are the technologies I've worked with</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

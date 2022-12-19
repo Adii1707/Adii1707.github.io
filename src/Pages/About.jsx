@@ -1,11 +1,12 @@
 import { GithubCalender } from "./githubCalender";
 import Stats from "./Stats";
+// bg-gradient-to-b from-cyan-800 via-gray-800  to-purple-800
 
 const About = ()=>{
     return (
       <div
-      name="About"
-      className="w-full h-full bg-gradient-to-b from-cyan-800 via-gray-800  to-purple-800 text-white"
+      name="AboutMe"
+      className="w-full h-full bg-gray-500  text-black"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

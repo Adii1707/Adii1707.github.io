@@ -1,13 +1,14 @@
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 // import { Link } from "react-scroll";
-
+import { TypeAnimation } from "react-type-animation";
 import AdityaImage from "./Adityaimage.png";
+// bg-gradient-to-b from-purple-800 via-black to-cyan-800
 
 const Home = ()=>{
     return (
       <div
       name="home"
-      className="h-full pb-10 pt-20 w-full bg-gradient-to-b from-purple-800 via-black to-cyan-800 "
+      className="h-full pb-10 pt-20 w-full bg-gray-500 "
     >
       <div className="max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col  justify-center h-full  ">
@@ -15,7 +16,32 @@ const Home = ()=>{
            Hey, I'm Aditya Singh 
           </h3>
           <h5 className="pt-4 w-96 text-xl sm:text-3xl font-bold text-teal-500 md:flex-row">
-          Full Stack Web Developer
+          <TypeAnimation
+          // className={Styles.run}
+          sequence={[
+            "|",
+            1000,
+            "Full Stack Web Developers!",
+            1000,
+            "",
+            500,
+            "Frontend Web Developer!",
+            2000,
+            "Full Stack Web Developers!",
+            1000,
+            "Frontend Web Developer!",
+            2000,
+            "",
+          
+            () => {
+              console.log("Done typing!");
+            },
+          ]}
+          wrapper="div"
+          cursor={true}
+          repeat={Infinity}
+          // className={styles.typing}
+        />
           </h5>
 
           <div>
@@ -26,7 +52,7 @@ const Home = ()=>{
               smooth
               duration={500}
               className="group mt-4 text-white w-fit w-300 px-6 py-3 my-2 flex items-center text-xl rounded-md 
-              bg-gradient-to-r hover:scale-105 from-gray-500 to-gray-500 cursor-pointer"
+              bg-gradient-to-r hover:scale-105 from-gray-700 to-black cursor-pointer"
             >
               Resume
               <span className="group-hover:rotate-90 duration-300">
