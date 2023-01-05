@@ -19,8 +19,8 @@ const Home = ()=>{
           <TypeAnimation
           // className={Styles.run}
           sequence={[
-            "|",
-            1000,
+            "",
+            500,
             "Full Stack Web Developers!",
             1000,
             "",

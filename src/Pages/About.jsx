@@ -1,6 +1,6 @@
-import { GithubCalender } from "./githubCalender";
+import  GithubCalender  from "./githubCalender";
 import Stats from "./Stats";
-// bg-gradient-to-b from-cyan-800 via-gray-800  to-purple-800
+
 
 const About = ()=>{
     return (
