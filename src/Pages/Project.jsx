@@ -7,6 +7,7 @@ import Unsplash from "../assets/portfolio/Unsplash.png";
 // import { Carousel } from "@trendyol-js/react-carousel";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Stats from "./Stats";
 
 import Slider from "react-slick";
 import "./Project.css";
@@ -132,6 +133,7 @@ const Project = () => {
           ))}
         </div>
       </div>
+      <Stats />
     </div>
   );
 };

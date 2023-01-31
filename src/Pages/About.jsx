@@ -22,7 +22,7 @@ const About = ()=>{
       </div>
       <div className="max-w-screen-lg pb-8 p-4 mx-auto flex flex-col justify-center w-full ">
       <GithubCalender  />
-      <Stats />
+      {/* <Stats /> */}
       </div>
     </div>
     )

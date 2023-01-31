@@ -11,7 +11,7 @@ const Stats = () => {
         <a href="https://github.com/Adii1707" className="mt-6" >  
           <img
             align="center"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adii1707&layout=compact&theme=tokyonight"  //launguages
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=adii1707&layout=compact&theme=tokyonight&show_icons=true"  //launguages
              alt="language card" />
         </a>
         </div>
@@ -20,7 +20,7 @@ const Stats = () => {
         <a href="https://github.com/Adii1707" className="mt-4">
           <img
             align="center"
-            src="https://github-readme-stats.vercel.app/api?username=Adii1707&show_icons=true&theme=tokyonight" //stats
+            src="https://github-readme-stats.vercel.app/api?username=adii1707&show_icons=true&theme=tokyonight" //stats
          alt="stats card" />
         </a>
         </div>

@@ -18,6 +18,7 @@ function App() {
      <Skills />
      {/* <SocialLinks /> */}
      <Project />
+     {/* <Stats /> */}
      <Contact />
     </div>
   );

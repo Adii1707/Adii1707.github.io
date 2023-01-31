@@ -1,8 +1,8 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-// import { BsFillPersonLinesFill } from "react-icons/bs";
-
+// import { BsFillPersonLinesFill } from "react-icons/bs
+import {MdContactPhone} from "react-icons/md";
 // bg-gradient-to-b  from-purple-800 via-black to-cyan-800 p-4
 
 const Contact = () => {
@@ -35,6 +35,15 @@ const Contact = () => {
         </>
       ),
       href: "mailto:adityasinghghosh36@gmail.com",
+    },
+    {
+      id: 3,
+      child: (
+        <>
+          Mobile: +919981464352 <MdContactPhone size={23} />
+        </>
+      ),
+      // href: "mailto:adityasinghghosh36@gmail.com",
     },
     // {
     //   id: 4,
@@ -71,7 +80,7 @@ const Contact = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-center p-4 mt-4 w-60 h-14 px-4 duration-300 hover:scale-110 bg-gradient-to-r from-gray-700 via-gray-700 to-red-600" +
+              "flex justify-between items-center p-4 mt-4 w-[260px] h-14 px-5 duration-300 hover:scale-110 bg-gradient-to-r from-gray-700 via-gray-700 to-red-600" +
               " " +
               style
             }
