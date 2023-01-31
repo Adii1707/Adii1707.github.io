@@ -8,7 +8,7 @@ import Unsplash from "../assets/portfolio/Unsplash.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Stats from "./Stats";
-
+import Nykaa from "../assets/portfolio/Nykaa.png";
 import Slider from "react-slick";
 import "./Project.css";
 
@@ -16,6 +16,15 @@ import "./Project.css";
 
 const Project = () => {
   const projects = [
+    {
+      id: 5,
+      src: Nykaa,
+      link: "https://frontend-three-coral.vercel.app/",
+      github: "https://github.com/Saurav02022/Nykaa-Clone",
+      desc: "It was a clone of Nykaa. Nykaa is an e-commerce website where we could purchase products like Beauty Products and Home products. It was a collaborative project built by a team of five developers and executed in five days.",
+      stack: "MongoDB | ExpressJS | ReactJS | NodeJS",
+      name: "Mars Beauty",
+    },
     {
       id: 1,
       src: anthropologie,
@@ -44,15 +53,15 @@ const Project = () => {
       stack: "HTML | CSS | JavaScript",
       name: "Clone of BigBasket",
     },
-    {
-      id: 4,
-      src: Unsplash,
-      link: "https://comfy-palmier-30bd29.netlify.app/",
-      github: "https://github.com/sauravugi/Recondite-force-2920",
-      desc: "Unsplash.com is a popular website that offers hundreds of thousands of creative photos around the world. This was a collaborative project built by team of 4 members executed in 5 days",
-      stack: "HTML | CSS | JavaScript",
-      name: "Clone of Unsplash",
-    },
+    // {
+    //   id: 4,
+    //   src: Unsplash,
+    //   link: "https://comfy-palmier-30bd29.netlify.app/",
+    //   github: "https://github.com/sauravugi/Recondite-force-2920",
+    //   desc: "Unsplash.com is a popular website that offers hundreds of thousands of creative photos around the world. This was a collaborative project built by team of 4 members executed in 5 days",
+    //   stack: "HTML | CSS | JavaScript",
+    //   name: "Clone of Unsplash",
+    // },
     
   ];
   
