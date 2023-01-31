@@ -8,6 +8,7 @@ import npm from "../assets/npm.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import Chakra from "../assets/Chakra.png";
+import node from "../assets/node.png"
 // bg-gradient-to-b from-purple-800 via-black to-cyan-800
 
 const Skills = () => {
@@ -60,6 +61,13 @@ const Skills = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 9,
+      src: node,
+      title: "Node",
+      style: "shadow-green-400",
+    },
+
   ];
 
   return (
