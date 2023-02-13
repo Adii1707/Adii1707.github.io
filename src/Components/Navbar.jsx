@@ -50,7 +50,7 @@ const Navbar = () => {
     <div id='nav' className="flex justify-between items-center w-full h-20 px-4 text-white
      bg-gray-500 fixed ">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Aditya</h1>
+        <h1 className="text-5xl hover:text-pink-500 font-signature ml-2">Aditya</h1>
       </div>
 
       <ul //className='ul'
@@ -59,15 +59,15 @@ const Navbar = () => {
         {links.map(({ id, link }) => (
           <li id="li"
             key={id}
-             className="px-4 cursor-pointer capitalize font-medium text-white-500 hover:scale-105 duration-200 "
+             className="px-4 cursor-pointer  capitalize font-medium text-white-500 hover:scale-105 duration-200 "
           >
-            <Link to={link} smooth-duration={500}>
+            <Link to={link} className="hover:text-pink-500"  smooth-duration={500}>
               {link}
             </Link>
           </li>
         ))}
-          <a className="px-4 pt-0 font-medium cursor-pointer capitalize text-2xl text-white-500
-           hover:scale-105 duration-200" href="/AdityaResume.pdf" download= {true}><h3>Resume</h3></a>
+          <a className="px-4 pt-0 hover:text-pink-500 font-medium cursor-pointer capitalize text-2xl text-white-500
+           hover:scale-105 duration-200" href="/AdityaResume.pdf" download= {true}><h3 onClick={()=> window.open("https://1drv.ms/b/s!AtmqcmBs9PAqeccCGmrk9jDzYGE?e=szj51P", "_blank", "noreferrer")}>Resume</h3></a>
       </ul>
    
       <div
@@ -95,7 +95,7 @@ const Navbar = () => {
             </li>
           ))}
           <a className="px-4 cursor-pointer capitalize py-6 text-4xl" href="/AdityaResume.pdf" download= {true}>
-            <h3>Resume</h3>
+            <h3 onClick={()=> window.open("https://1drv.ms/b/s!AtmqcmBs9PAqeccCGmrk9jDzYGE?e=szj51P", "_blank", "noreferrer")}>Resume</h3>
             </a>
         </ul>
       )}

@@ -12,10 +12,10 @@ const Home = ()=>{
     >
       <div className="max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col  justify-center h-full  ">
-          <h3 className="pt-10 text-2xl hover:scale-105 duration-200 w-96 sm:text-3xl font-bold text-white md:flex-row">
+          <h3 className="pt-10 pl-4 hover:text-pink-400 text-2xl hover:scale-105 duration-200 w-96 sm:text-3xl font-bold text-white md:flex-row">
            Hey, I'm Aditya Singh 
           </h3>
-          <h5 className="pt-4 w-96 text-xl sm:text-3xl font-bold text-teal-500 md:flex-row">
+          <h5 className="pt-4 pl-4 w-96 text-xl sm:text-3xl font-bold text-teal-500 md:flex-row">
           <TypeAnimation
           // className={Styles.run}
           sequence={[
@@ -44,14 +44,14 @@ const Home = ()=>{
         />
           </h5>
 
-          <div>
+          <div >
             <a
               // to="Projects"
               href= "/AdityaResume.pdf"
               download={true}
               smooth
               duration={500}
-              className="group mt-4 text-white w-fit w-300 px-6 py-3 my-2 flex items-center text-xl rounded-md 
+              className="group ml-4 mt-4 text-white w-fit w-300 px-6 py-3 my-2 flex items-center text-xl rounded-md 
               bg-gradient-to-r hover:scale-105 from-gray-700 to-black cursor-pointer"
             >
               Resume

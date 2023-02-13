@@ -65,40 +65,8 @@ const Project = () => {
     
   ];
   
-  var settings = {
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 2,
-    slidesToScroll: 4,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
+  
+  
   return (
     <div
       name="Projects"
@@ -112,9 +80,9 @@ const Project = () => {
           <p className="py-6 text-black text-xl">Check out some of my work right here</p>
         </div>
 
-        <div className="gap-x-2 w-full grid grid-cols-1 lg:grid-cols-2 grid-rows-1 gap-5 shadow-md" >
+        <div className="gap-x-2 w-full grid justify-center items-center text-center grid-cols-1 lg:grid-cols-2  grid-rows-1 gap-5 shadow-md " >
         {projects.map(({ id, src, link, github,name,stack,desc }) => (
-            <div key={id} className="w-[400px] rounded-lg  p-3" >
+            <div key={id}  className=" border-red-500 rounded-lg  p-3" >
               
               <img
              
