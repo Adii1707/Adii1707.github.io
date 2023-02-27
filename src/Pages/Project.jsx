@@ -21,7 +21,7 @@ const Project = () => {
       src: Nykaa,
       link: "https://frontend-three-coral.vercel.app/",
       github: "https://github.com/Saurav02022/Nykaa-Clone",
-      desc: "It was a clone of Nykaa. Nykaa is an e-commerce website where we could purchase products like Beauty Products and Home products. It was a collaborative project built by a team of five developers and executed in five days.",
+      desc: "Mars Beauty is an e-commerce website where we could purchase products like Beauty Products and Home products. It was a collaborative project built by a team of five developers and executed in five days.",
       stack: "MongoDB | ExpressJS | ReactJS | NodeJS",
       name: "Mars Beauty",
     },

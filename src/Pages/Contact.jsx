@@ -31,7 +31,7 @@ const Contact = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          adityasinghghosh36@gmail.com <HiOutlineMail size={15} />
         </>
       ),
       href: "mailto:adityasinghghosh36@gmail.com",

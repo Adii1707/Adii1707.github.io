@@ -11,7 +11,7 @@ import Stats from './Pages/Stats';
 
 function App() {
   return (
-    <div className="mr-[-30px]" >  
+    <div className="" >  
      <Navbar />
      <Home />
      <About />

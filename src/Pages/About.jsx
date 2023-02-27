@@ -1,12 +1,12 @@
 import  GithubCalender  from "./githubCalender";
-import Stats from "./Stats";
+// import Stats from "./Stats";
 
 
 const About = ()=>{
     return (
       <div
       name="AboutMe"
-      className="w-full h-full bg-gray-500  text-black"
+      className="w-full  bg-gray-500  text-black"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
