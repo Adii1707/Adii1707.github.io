@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee49291a.css",
-    "main.js": "/static/js/main.71fcbdb2.js",
+    "main.css": "/static/css/main.02d73b82.css",
+    "main.js": "/static/js/main.41b4a052.js",
     "static/media/Adityaimage.png": "/static/media/Adityaimage.ea73f72f74bd486e5619.png",
     "static/media/Bigbasket.png": "/static/media/Bigbasket.f32572eb3b5f6ca038cc.png",
     "static/media/Zara.png": "/static/media/Zara.45668bb6a6025d98875c.png",
     "static/media/Nykaa.png": "/static/media/Nykaa.8b71f901376c4f21a04b.png",
     "static/media/Anthropologie.png": "/static/media/Anthropologie.ea604b09ac841de0cf90.png",
+    "static/media/Aditya.png": "/static/media/Aditya.3edd44b87bba8f0f4501.png",
     "static/media/Unsplash.png": "/static/media/Unsplash.23cf66e9610d3ccab37e.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
@@ -21,11 +22,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.ee49291a.css.map": "/static/css/main.ee49291a.css.map",
-    "main.71fcbdb2.js.map": "/static/js/main.71fcbdb2.js.map"
+    "main.02d73b82.css.map": "/static/css/main.02d73b82.css.map",
+    "main.41b4a052.js.map": "/static/js/main.41b4a052.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee49291a.css",
-    "static/js/main.71fcbdb2.js"
+    "static/css/main.02d73b82.css",
+    "static/js/main.41b4a052.js"
   ]
 }
