@@ -67,7 +67,7 @@ const Home = ()=>{
           
             src={Aditya}
             alt="my profile"
-            className="h-[300px] rounded-xl hover:scale-105 duration-300  w-[300px]"
+            className="h-[350px] rounded-xl hover:scale-105 duration-300  w-[300px]"
           />
         </div>
       </div>
