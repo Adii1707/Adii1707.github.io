@@ -67,7 +67,7 @@ const Navbar = () => {
           </li>
         ))}
           <a className="px-4 pt-0 hover:text-pink-500 font-medium cursor-pointer capitalize text-2xl text-white-500
-           hover:scale-105 duration-200" href="/Aditya-Ghosh-Resume.pdf" download= {true}><h3 onClick={()=> window.open("https://drive.google.com/file/d/1x-bmq7C-Qo91-5O4TjBSwuJuzObIx_pa/view?usp=sharing", "_blank", "noreferrer")}>Resume</h3></a>
+           hover:scale-105 duration-200" href="/fw17_1062-Aditya-Ghosh-Resume.pdf" download= {true}><h3 onClick={()=> window.open("https://drive.google.com/file/d/1x-bmq7C-Qo91-5O4TjBSwuJuzObIx_pa/view?usp=sharing", "_blank", "noreferrer")}>Resume</h3></a>
       </ul>
    
       <div
@@ -94,7 +94,7 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <a className="px-4 cursor-pointer capitalize py-6 text-4xl" href="/Aditya-Ghosh-Resume.pdf" download= {true}>
+          <a className="px-4 cursor-pointer capitalize py-6 text-4xl" href="/fw17_1062-Aditya-Ghosh-Resume.pdf" download= {true}>
             <h3 onClick={()=> window.open("https://drive.google.com/file/d/1x-bmq7C-Qo91-5O4TjBSwuJuzObIx_pa/view?usp=sharing", "_blank", "noreferrer")}>Resume</h3>
             </a>
         </ul>

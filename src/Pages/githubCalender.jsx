@@ -40,6 +40,7 @@ const GithubCalender = () => {
       to-gray-800 text-white"
       >
        
+       
        <GitHubCalendar style={{alignItems: "center"}} 
        username="Adii1707" 
        fontSize={18}

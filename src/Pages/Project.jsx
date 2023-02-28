@@ -39,7 +39,7 @@ const Project = () => {
       src: zara,
       link: "https://fabulous-brioche-d464ac.netlify.app/",
       github: "https://github.com/Adii1707/moldy-care-8778",
-      desc: "ZARA is an e-commerce website which primarily sells clothes, shoes, accessories, swimwear, beauty, and perfumes. It is the largest company in the Inditex group, the world's largest apparel retailer. This was a collaborative project built by team of 4 members executed in 5 days",
+      desc: "ZARA is an e-commerce website which primarily sells Products. It is the largest company in the Inditex group. This was a collaborative project built by team of 4 members executed in 5 days",
       stack: "HTML | CSS | JavaScript",
       name: "Clone of Zara",
 
@@ -49,7 +49,7 @@ const Project = () => {
       src: Bigbasket,
       link: "https://venerable-basbousa-4536f8.netlify.app/",
       github: "https://github.com/Vaibhav2416/BigBasket-Clone",
-      desc: "Big-Basket was an e-commerce website that sold and delivered groceries and fruits. It was a collaborative project built by a team of six developers and  executed in five days.",
+      desc: "Big-Basket is india's largest online food and grocery store. With over 18000 products and over a 1000 brands in their catalogue. It was a collaborative project built by a team of six developers and  executed in five days.",
       stack: "HTML | CSS | JavaScript",
       name: "Clone of BigBasket",
     },
@@ -82,7 +82,7 @@ const Project = () => {
 
         <div className="gap-x-2 w-full grid justify-center items-center text-center grid-cols-1 lg:grid-cols-2  grid-rows-1 gap-5 shadow-md " >
         {projects.map(({ id, src, link, github,name,stack,desc }) => (
-            <div key={id}  className=" border-red-500 rounded-lg  p-3" >
+            <div key={id}  className=" border-red-500  h-[700px]  rounded-lg  p-3" >
               
               <img
              
@@ -93,15 +93,15 @@ const Project = () => {
               <div>
                 <h3 className="font-bold text-yellow-300 text-2xl pl-6 p-2 hover:scale-105"  >{name}</h3>
                 <p className=" text-black-800 p-2">{desc}</p>
-                <h4 className="font-bold text-cyan-400 text-xl hover:scale-105 duration-200 pl-3 p-2">Tech Stack: {stack}</h4>
+                <h4 className="font-bold text-cyan-400 text-lg hover:scale-105 duration-200 pl-3 p-2">Tech Stack: {stack}</h4>
               </div>
               <div className="flex items-center justify-center">
                <div className="flex items-center justify-center">
-               <button className="bg-pink-400 rounded-xl w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 " >
-                <a href={link}>Demo</a>
+               <button onClick={()=> window.open(`${link}`, "_blank", "noreferrer")} className="bg-pink-400 rounded-xl w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 " >
+              Demo
                 </button>
-                 <button className="bg-cyan-600 rounded-xl w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                 <a href={github}>Code</a>  
+                 <button onClick={()=> window.open(`${github}`, "_blank", "noreferrer")} className="bg-cyan-600 rounded-xl w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                 Code  
                 </button>
                </div>
               </div>
@@ -110,7 +110,7 @@ const Project = () => {
           ))}
         </div>
       </div>
-      <Stats />
+      {/* <Stats /> */}
     </div>
   );
 };

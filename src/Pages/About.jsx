@@ -1,4 +1,5 @@
 import  GithubCalender  from "./githubCalender";
+import Stats from "./Stats";
 // import Stats from "./Stats";
 
 
@@ -21,8 +22,13 @@ const About = ()=>{
         </p>
       </div>
       <div className="max-w-screen-lg pb-8 p-4 mx-auto flex flex-col justify-center w-full ">
+      <div className="pb-8">
+          <p className="text-4xl font-bold inline ">
+            Github Calender & Stats
+          </p>
+        </div>
       <GithubCalender  />
-      {/* <Stats /> */}
+      <Stats />
       </div>
     </div>
     )

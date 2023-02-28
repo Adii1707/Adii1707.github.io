@@ -6,7 +6,8 @@ const Stats = () => {
     // streak 
     <div className="flex flex-col justify-center items-center ">
       {/* <div className="mb-2 mt-4 item-center " > */}
-       
+     
+
         <div className="mt-5 ml-10 mr-4 hover:scale-110 duration-300 place-items-center content-center">
         <a href="https://github.com/Adii1707" className="mt-6" >  
           <img

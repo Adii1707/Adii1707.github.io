@@ -3,7 +3,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { TypeAnimation } from "react-type-animation";
 import AdityaImage from "./Adityaimage.png";
 // bg-gradient-to-b from-purple-800 via-black to-cyan-800
-
+import Aditya from "../assets/Aditya.png";
 const Home = ()=>{
     return (
       <div
@@ -47,7 +47,7 @@ const Home = ()=>{
           <div >
             <a
               // to="Projects"
-              href= "/AdityaResume.pdf"
+              href= "/fw17_1062-Aditya-Ghosh-Resume.pdf"
               download={true}
               smooth
               duration={500}
@@ -65,7 +65,7 @@ const Home = ()=>{
         <div className="m-16">
           <img
           
-            src={AdityaImage}
+            src={Aditya}
             alt="my profile"
             className="h-[300px] rounded-xl hover:scale-105 duration-300  w-[300px]"
           />
