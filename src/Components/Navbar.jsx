@@ -1,16 +1,10 @@
-import React, {useState} from 'react';
-import {Link} from "react-scroll";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 
-import { BsFillPersonLinesFill } from "react-icons/bs";
-
-
-
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-    
 
   const links = [
     {
@@ -47,29 +41,53 @@ const Navbar = () => {
   ];
 
   return (
-    <div id='nav' className="flex justify-between items-center w-full h-20 px-4 text-white
-     bg-gray-500 fixed ">
+    <div
+      id="nav"
+      className="flex justify-between items-center w-full h-20 px-4 text-black
+     bg-white fixed "
+    >
       <div>
-        <h1 className="text-5xl hover:text-pink-500 font-signature ml-2">Aditya</h1>
+        <h1 className="text-5xl hover:text-pink-500 font-signature ml-2">
+          Aditya
+        </h1>
       </div>
 
-      <ul //className='ul'
-       className="hidden md:flex mr-10"
-      >
+      <ul className="hidden md:flex mr-10">
         {links.map(({ id, link }) => (
-          <li id="li"
+          <li
+            id="li"
             key={id}
-             className="px-4 cursor-pointer  capitalize font-medium text-white-500 hover:scale-105 duration-200 "
+            className="px-4 cursor-pointer  capitalize font-medium text-black hover:scale-105 duration-200 "
           >
-            <Link to={link} className="hover:text-pink-500"  smooth-duration={500}>
+            <Link
+              to={link}
+              className="hover:text-pink-500 text-black"
+              smooth-duration={500}
+            >
               {link}
             </Link>
           </li>
         ))}
-          <a className="px-4 pt-0 hover:text-pink-500 font-medium cursor-pointer capitalize text-2xl text-white-500
-           hover:scale-105 duration-200" href="/fw17_1062-Aditya-Ghosh-Resume.pdf" download= {true}><h3 onClick={()=> window.open("https://drive.google.com/file/d/1x-bmq7C-Qo91-5O4TjBSwuJuzObIx_pa/view?usp=sharing", "_blank", "noreferrer")}>Resume</h3></a>
+        <a
+          className="px-4 pt-0 hover:text-pink-500 font-medium cursor-pointer capitalize text-2xl text-white-500
+           hover:scale-105 duration-200"
+          href="/fw17_1062-Aditya-Ghosh-Resume.pdf"
+          download={true}
+        >
+          <h3
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1x-bmq7C-Qo91-5O4TjBSwuJuzObIx_pa/view?usp=sharing",
+                "_blank",
+                "noreferrer"
+              )
+            }
+          >
+            Resume
+          </h3>
+        </a>
       </ul>
-   
+
       <div
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-gray-800 md:hidden"
@@ -94,13 +112,27 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <a className="px-4 cursor-pointer capitalize py-6 text-4xl" href="/fw17_1062-Aditya-Ghosh-Resume.pdf" download= {true}>
-            <h3 onClick={()=> window.open("https://drive.google.com/file/d/1x-bmq7C-Qo91-5O4TjBSwuJuzObIx_pa/view?usp=sharing", "_blank", "noreferrer")}>Resume</h3>
-            </a>
+          <a
+            className="px-4 cursor-pointer capitalize py-6 text-4xl"
+            href="/fw17_1062-Aditya-Ghosh-Resume.pdf"
+            download={true}
+          >
+            <h3
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1x-bmq7C-Qo91-5O4TjBSwuJuzObIx_pa/view?usp=sharing",
+                  "_blank",
+                  "noreferrer"
+                )
+              }
+            >
+              Resume
+            </h3>
+          </a>
         </ul>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

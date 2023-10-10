@@ -1,53 +1,49 @@
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-// import { Link } from "react-scroll";
 import { TypeAnimation } from "react-type-animation";
-import AdityaImage from "./Adityaimage.png";
-// bg-gradient-to-b from-purple-800 via-black to-cyan-800
+
+
 import Aditya from "../assets/Aditya.png";
-const Home = ()=>{
-    return (
-      <div
-      name="home"
-      className="h-full pb-10 pt-20 w-full bg-gray-500 "
-    >
+const Home = () => {
+  return (
+    <div name="home" className="h-full pb-10 pt-20 w-full bg-gray-500 ">
       <div className="max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col  justify-center h-full  ">
           <h3 className="pt-10 pl-4 hover:text-pink-400 text-2xl hover:scale-105 duration-200 w-96 sm:text-3xl font-bold text-white md:flex-row">
-           Hey, I'm Aditya Singh 
+            Hey, I'm Aditya Singh
           </h3>
           <h5 className="pt-4 pl-4 w-96 text-xl sm:text-3xl font-bold text-teal-500 md:flex-row">
-          <TypeAnimation
-          // className={Styles.run}
-          sequence={[
-            "",
-            500,
-            "Full Stack Web Developers!",
-            1000,
-            "",
-            500,
-            "Frontend Web Developer!",
-            2000,
-            "Full Stack Web Developers!",
-            1000,
-            "Frontend Web Developer!",
-            2000,
-            "",
-          
-            () => {
-              console.log("Done typing!");
-            },
-          ]}
-          wrapper="div"
-          cursor={true}
-          repeat={Infinity}
-          // className={styles.typing}
-        />
+            <TypeAnimation
+              
+              sequence={[
+                "",
+                500,
+                "Full Stack Web Developers!",
+                1000,
+                "",
+                500,
+                "Frontend Web Developer!",
+                2000,
+                "Full Stack Web Developers!",
+                1000,
+                "Frontend Web Developer!",
+                2000,
+                "",
+
+                () => {
+                  // console.log("Done typing!");
+                },
+              ]}
+              wrapper="div"
+              cursor={true}
+              repeat={Infinity}
+              
+            />
           </h5>
 
-          <div >
+          <div>
             <a
-              // to="Projects"
-              href= "/fw17_1062-Aditya-Ghosh-Resume.pdf"
+              
+              href="/fw17_1062-Aditya-Ghosh-Resume.pdf"
               download={true}
               smooth
               duration={500}
@@ -64,15 +60,13 @@ const Home = ()=>{
 
         <div className="m-16">
           <img
-          
             src={Aditya}
             alt="my profile"
             className="h-[350px] rounded-xl hover:scale-105 duration-300  w-[300px]"
           />
         </div>
       </div>
-    </div>       
-
-    )
-}
-export {Home}
+    </div>
+  );
+};
+export { Home };
